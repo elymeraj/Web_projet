@@ -1,1 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Eldis YMERAJ">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="../style/index.css">
+        <link rel="stylesheet" href="..//style/style.css">
+        <link rel="stylesheet" href="../style/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="../html/accueil.html" class="lien-icone">
+                    <img src="../images/logo.jpg" alt="Logo Eldis Ymeraj">
+                </a>
+                <div class="menu">
+                    <a href="#photographie">La photographie</a>
+                    <a href="#dernier-projet">Dernier projet</a>
+                    <a href="#contact">Votre projet</a>
+                    <a href="#contact1">Contacter</a>
+                    <div class="dropdown">
+                        <img src="../images/menu-bar.png" alt="menu-bar">
+                        <div class="dropdown-content">
+                            <a href="../html/accueil.html">Page d'accueil</a>
+                            <a href="../html/a-propos.html"> A-propos</a>
+                            <a href="../html/portfolio.html">Portfolio</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <img src="../images/register-icon.jpg" alt="register-icon">
+                        <div class="dropdown-content">
+                            <a href="../html/inscrire.html">Inscrire</a>
+                            <a href="../index.html">Connextion</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="accueil-introduction" id="photographie">
+                <div>
+                    <h1>Eldis Ymeraj Photographie</h1>
+                    <p>
+                        Où <em>professionalisme</em> s’allie avec <em>passion</em>. Depuis
+                        plus de 5 ans maintenant, j’exerce mon métier avec la passion
+                        qui m’anime : capturer l’essence de chaque instant.
+                    </p>
+                    <p>
+                        Pour moi, la photographie est le meilleur moyen de créer et 
+                        partager des souvenirs, transmettre des émotions, et véhiculer 
+                        des messages.A chaque fois que je pars en vacances, 
+                        je prends mon <strong>Canon EOS 6D</strong> pour immortaliser ce que je vois.
+                    </p>
+                    <p>
+                        Je vous invite donc à découvrir mon portfolio en ligne où vous pourrez en 
+                        apprendre davantage sur moi et sur mes projets passés et présents. 
+                        N'hésitez pas à me contacter si vous avez des questions ou si vous 
+                        souhaitez discuter d'un projet!
+                    </p>
+                    <a href="#contact" class="cta"> UN PROJET ? ÉCRIVEZ-MOI</a>
+                </div>
+                <div>
+                    <figure>
+                        <img src="../images/eldis-photo.jpg" alt="Portrait avec effet de la photographe Eldis Ymeraj">
+                        <figcaption> <em>Photo réalisé à l'arc de triomphe</em> </figcaption>
+                    </figure>
+                </div> 
+            </section>
+            <section class="accueil-photos" id="dernier-projet">
+                <h2>Mon dernier projet</h2>
+                <div class="photo-grid">
+                    <figure>
+                        <img src="../images/accueil/shkodra-city.JPG" alt="Ville de Shkoder-Albanie">
+                        <figcaption>Ville de<em> Shkoder-Albanie</em></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="../images/accueil/berat-city.JPG" alt="Ville de Berat-Albanie">
+                        <figcaption>Ville de<em> Berat-Albanie</em></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="../images/accueil/bovilla-lake.JPG" alt="Lac de Bovilla-Albanie">
+                        <figcaption>Lac de <em>Bovilla-Albanie</em></figcaption>
+                    </figure>
+                </div>
+                <div class="photo-grid">
+                    <figure>
+                        <img src="../images/accueil/himare.JPG" alt="Himara-Albanie">
+                        <figcaption><em>Himara-Albanie</em></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="../images/accueil/osum-canyon.JPG" alt="Canyon d'Osume - Albanie">
+                        <figcaption>Canyon d'<em>Osume - Albanie</em></figcaption>
+                    </figure>
+                    <figure>
+                        <img src="../images/accueil/saranda.JPG" alt="Plage de Saranda - Albanie">
+                        <figcaption>Plage de <em>Saranda - Albanie</em></figcaption>
+                    </figure>
+                </div>
+            </section>
+            <section id="contact" class="section-contact">
+                <h2>Parlons de votre projet</h2>
+                <form method="get" action="#">
+                    <div class="form-nom-email">
+                        <div class="form-column">
+                            <label for="nom">nom</label>
+                            <input type="text" name="nom" id="nom">
+                        </div>
+                        <div class="form-column">
+                            <label for="email">email</label>
+                            <input type="text" name="email" id="email">
+                        </div>
+                    </div>
+                    <label for="message">message</label>
+                    <textarea name="message" id="message" rows="10"></textarea>
+                    <input type="submit" value="ENVOYER" class="cta">
+                </form>
+            </section>
 
+        </main>
+        <footer>
+            <a href="../html/accueil.html" class="lien-icone">
+                <img src="../images/logo.jpg" alt="Logo Eldis Ymeraj">
+            </a>
+            <div id="contact1">
+                <a target="_blank" href="https://twitter.com/" class="lien-icone">
+                    <img src="../images/twitter.png" alt="Logo Twitter">
+                </a>
+                <a target="_blank" href="https://www.instagram.com/eldis_ymeraj/" class="lien-icone">
+                    <img src="../images/instagram.png" alt="Logo Instagram">
+                </a>
+                <a target="_blank" href="https://www.facebook.com/el.dis.9/" class="lien-icone">
+                    <img src="../images/facebook.png" alt="Logo Facebook">
+                </a>
+                <a target="_blank" href="tel:+33783883926" class="lien-icone">
+                    <img src="../images/phone.jpeg" alt="Logo mobile">
+                </a>
+                <a target="_blank" href="https://www.linkedin.com/in/eldis-ymeraj-2b5433226" class="lien-icone">
+                    <img src="../images/linkedIn.jpeg" alt="Logo linkedIn">
+                </a>
+            </div>
+        </footer>
+    </body>
+</html>
