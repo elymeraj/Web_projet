@@ -1,0 +1,119 @@
+.dropdown img
+{
+  cursor: pointer;
+  margin-left: 30px;
+}
+.dropdown {
+  position: sticky;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin-left: -70px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  margin: 0px;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.menu {
+  display: flex;
+}
+
+.carre-contenu 
+{
+ border-right: 1px solid #8e86b5;
+ border-bottom: 1px solid #8e86b5;
+ padding: 50px;
+ width: 50%;
+ margin: auto;
+ margin-bottom: 80px; 
+}
+.carre-contenu h2 
+{
+  margin-top: 30px;
+}
+  
+.carre-contenu ul 
+{
+  margin-top: 30px;
+}
+  
+.carre-contenu + div 
+{ 
+  text-align: center;
+}
+
+.carre-contenu article
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+ 
+.a-propos-main 
+{
+  margin: auto;
+}
+  
+table 
+{
+  color: white;
+  text-align: center;
+  width: 100%;
+  border-collapse: collapse;
+}
+  
+td, th 
+{
+  padding: 15px;
+  border: 1px solid #a5b4fc;
+}
+  
+td 
+{
+  padding: 80px;
+}
+td:hover 
+{
+  background-color: #a5b4fc;
+} 
+th:hover
+{
+  background-color: #a5b4fc;
+}
+h2 
+{
+  margin-bottom: 80px;
+}
+  
+h1, h2 
+{
+  text-align: center;
+}
+  
+@media screen and (max-width: 996px) 
+{
+  .section-tarifs 
+  {
+    display: none;
+  }
+}

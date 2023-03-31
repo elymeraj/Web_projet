@@ -1,0 +1,177 @@
+.dropdown img
+{
+  cursor: pointer;
+  margin-left: 30px;
+}
+.dropdown {
+  position: sticky;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin-left: -70px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  margin: 0px;
+}
+
+.dropdown-content a:hover {background-color: #a5b4fc;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.menu {
+  display: flex;
+}
+
+
+.accueil-photos{
+  background-color: white;
+  padding: 80px;
+} 
+
+.accueil-photos h2 {
+  color: #242424;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.accueil-photos div {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.accueil-photos figcaption
+{
+  font-size: 1.2em;
+}
+  
+.accueil-introduction {
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+  align-items: flex-start;
+  margin: auto;
+
+}
+.accueil-introduction img{
+  
+  width: 419px;
+  height: 550px;
+  margin-top: 30px;
+  
+}
+.accueil-introduction figcaption{
+  color: white;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.accueil-introduction h1 {
+  margin-bottom: 15px;
+}
+  
+.accueil-introduction p {
+  margin-bottom: 30px;
+  width: 100%;
+}
+  
+  .accueil-introduction div {
+    padding-right: 80px;
+    
+  }
+  
+  .section-contact h2 {
+    color: #a5b4fc;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .section-contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: auto;
+    color: white;
+  }
+  
+  .form-nom-email {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+  .form-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  input, textarea {
+    padding: 15px;
+    border-radius: 3px;
+    border: none;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input[type='submit'] {
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
+  }  
+  @media screen and (max-width: 996px) {
+    .accueil-introduction {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .accueil-introduction div {
+      padding-right: 0;
+      text-align: center;
+      order: 2;
+    }
+  
+    .accueil-introduction img {
+      order: 1;
+      margin-bottom: 20px;
+      
+    }
+  
+    .accueil-photos {
+      padding: 20px;
+    }
+  
+    .accueil-photos div {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .section-contact {
+      padding: 50px 20px;
+    }
+  
+    .form-nom-email {
+      flex-direction: column;
+      gap: 0;
+    }
+  }
+  
